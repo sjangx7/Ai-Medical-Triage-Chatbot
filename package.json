@@ -1,0 +1,16 @@
+{
+  "name": "ai-assisted-triage-bot",
+  "version": "1.0.0",
+  "description": "AI-Assisted Medical Triage Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Sae Jang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
