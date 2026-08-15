@@ -50,7 +50,6 @@ After processing the assessment, the system assigns an urgency category and prov
 The system provides a transparent breakdown of the factors contributing to the result rather than presenting an unexplained classification.
 
 ![Explainable Risk Assessment](docs/images/explanation.png)
----
 
 ##  Key Features
 
