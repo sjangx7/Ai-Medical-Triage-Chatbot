@@ -25,6 +25,31 @@ The application guides the user through a conversational symptom assessment and 
 
 Rather than simply returning a risk category, the system provides reasoning and recommended next steps to make its decision-making more transparent to the user.
 
+##  Application Preview
+
+### Landing Page
+
+The application introduces the project and its focus on safe, structured and explainable digital triage.
+
+![AI-Assisted Medical Triage Home Page](docs/images/home.png)
+
+### Interactive Symptom Assessment
+
+Users complete a conversational assessment where the system collects symptom information, severity, duration and associated symptoms.
+
+![Interactive Symptom Assessment](docs/images/assessment.png)
+
+### Triage Recommendation
+
+After processing the assessment, the system assigns an urgency category and provides appropriate next-step guidance.
+
+![Triage Assessment Result](docs/images/result.png)
+
+### Explainable Risk Assessment
+
+The system provides a transparent breakdown of the factors contributing to the result rather than presenting an unexplained classification.
+
+![Explainable Risk Assessment](docs/images/explanation.png)
 ---
 
 ##  Key Features
