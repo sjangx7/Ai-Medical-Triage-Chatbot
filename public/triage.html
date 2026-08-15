@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Health Assessment - AI Assisted Triage Bot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">🩺 AI Assisted Triage Bot</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="triage.html">Start Assessment</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<section class="triage-wrapper">
+
+  <div class="assessment-card">
+
+
+    <!-- Header Section -->
+    <div class="assessment-header">
+      <h2>Symptom Assessment</h2>
+      <div id="stepIndicator" class="step-indicator">
+        Step 1 of 4
+      </div>
+    </div>
+
+    <!-- Severity Indicator -->
+    <div id="severityIndicator" class="severity-block"></div>
+
+    <!-- Chat Window -->
+    <div id="chatWindow" class="chat-window"></div>
+
+    <!-- ✅ Quick Replies Bar (NEW) -->
+    <div id="quickReplies"></div>
+
+    <!-- Input Area -->
+    <div class="input-area">
+      <input 
+        type="text"
+        id="userInput"
+        placeholder="Please describe your primary symptom..."
+        autocomplete="off"
+      />
+      <button onclick="sendMessage()">Submit</button>
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+  AI Assisted Triage Bot © 2026 | Educational & Research Use Only
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
